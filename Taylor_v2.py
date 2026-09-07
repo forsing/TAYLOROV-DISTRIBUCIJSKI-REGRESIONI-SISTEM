@@ -39,7 +39,7 @@ from sklearn.metrics import mean_absolute_error
 SEED = 39
 
 ZAJEDNICKI_CSV = Path(
-    "/Users/4c/Desktop/GHQ/data/loto7_4680_k71.csv"
+    "/data/loto7_4680_k71.csv"
 )
 
 BROJ_KUGLICA = 39
@@ -1297,7 +1297,7 @@ Ukupno mogućih kombinacija: 15,380,937
 ==============================================================================
 Obrada: Loto
 ==============================================================================
-CSV: /Users/4c/Desktop/GHQ/data/loto7_4680_k71.csv
+CSV: /data/loto7_4680_k71.csv
 Broj redova: 4680
 Prvi red se tretira kao najstariji.
 Poslednji red se tretira kao najnoviji.
@@ -1317,7 +1317,7 @@ KONAČNA NEXT PREDIKCIJA
 ==============================================================================
 Loto
 ==============================================================================
-NEXT: 01, 05, 08, 10, 12, 23, 26
+NEXT: 01, x, 08, y, 12, z, 26
 CSV redova: 4680
 Izabrana konfiguracija regresora: 1
 Završnih trening uzoraka: 46800
