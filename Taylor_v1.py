@@ -42,12 +42,12 @@ from sklearn.metrics import mean_absolute_error
 SEED = 39
 
 LOTO_CSV = Path(
-    "/Users/4c/Desktop/GHQ/data/"
+    "/data/"
     "loto7_4680_k71_loto_2962.csv"
 )
 
 LOTO_PLUS_CSV = Path(
-    "/Users/4c/Desktop/GHQ/data/"
+    "/data/"
     "loto7_4680_k71_loto_plus_1718.csv"
 )
 
@@ -1313,7 +1313,7 @@ Ukupno mogućih kombinacija: 15,380,937
 ==============================================================================
 Obrada: Loto
 ==============================================================================
-CSV: /Users/4c/Desktop/GHQ/data/loto7_4680_k71_loto_2962.csv
+CSV: data/loto7_4680_k71_loto_2962.csv
 Broj redova: 2962
 Prvi red se tretira kao najstariji.
 Poslednji red se tretira kao najnoviji.
@@ -1328,7 +1328,7 @@ Završna obuka nad svim poznatim metama...
 ==============================================================================
 Obrada: Loto Plus
 ==============================================================================
-CSV: /Users/4c/Desktop/GHQ/data/loto7_4680_k71_loto_plus_1718.csv
+CSV: /data/loto7_4680_k71_loto_plus_1718.csv
 Broj redova: 1718
 Prvi red se tretira kao najstariji.
 Poslednji red se tretira kao najnoviji.
@@ -1348,7 +1348,7 @@ KONAČNE NEXT PREDIKCIJE
 ==============================================================================
 Loto
 ==============================================================================
-NEXT: 07, 10, 13, 20, 27, 30, 37
+NEXT: 07, x, 13, y, 27, z, 37
 CSV redova: 2962
 Izabrana konfiguracija regresora: 2
 Završnih trening uzoraka: 46800
@@ -1371,7 +1371,7 @@ NE — Taylorov distribucijski regresioni sistem na zamrznutom holdoutu ne daje 
 ==============================================================================
 Loto Plus
 ==============================================================================
-NEXT: 01, 02, 07, 09, 25, 31, 32
+NEXT: 01, x, 07, y, 25, z, 32
 CSV redova: 1718
 Izabrana konfiguracija regresora: 1
 Završnih trening uzoraka: 46800
